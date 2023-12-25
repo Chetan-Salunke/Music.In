@@ -1,15 +1,32 @@
 /* ----MEDIA QUERIES---- */
 @media screen and (max-width: 1400px) {
-    
+    .navul2 li{
+        font-size: 12px;
+    }
 }
+
 @media screen and (max-width: 1200px) {
     #hamburger-nav {
         display: flex;
-      }
-      .nav {
+    }
+
+    .nav {
         display: none;
-      }
+    }
+    .nav2{
+        /* width: 100vh; */
+        /* display: flex; */
+        /* width: auto; */
+    }
+    .navul2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navul2 li{
+        font-size: 10px;
+    }
 }
+
 @media screen and (max-width: 600px) {
-   
+
 }
