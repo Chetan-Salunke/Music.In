@@ -3,6 +3,10 @@
     .navul2 li{
         font-size: 12px;
     }
+    .art img{
+        height: 60px;
+        width: 60px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -13,11 +17,6 @@
     .nav {
         display: none;
     }
-    .nav2{
-        /* width: 100vh; */
-        /* display: flex; */
-        /* width: auto; */
-    }
     .navul2{
         display: flex;
         flex-wrap: wrap;
@@ -25,8 +24,16 @@
     .navul2 li{
         font-size: 10px;
     }
+    .art p{
+        font-size: 10px
+    }
+
 }
 
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 700px) {
+    .artistlist{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
 }
