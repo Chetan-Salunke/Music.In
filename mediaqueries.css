@@ -11,6 +11,11 @@
         height: 100px;
         width: 180px;
     }
+    .hitslist{
+        display: flex;
+        flex-wrap: wrap;
+        /* max-width: 160px; */
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -43,6 +48,9 @@
         flex-wrap: wrap;
         padding: 10px;
     }
+    .art{
+        padding-bottom: 10px;
+    }
     .card{
         height: 80px;
         width: 160px;
@@ -70,5 +78,22 @@
     .newmusic{
         padding-top: 15px;
         padding-bottom: 15px;
+    }
+    .list p{
+        font-size: 12px;
+    }
+    .Hlist img{
+        height: 150px;
+        width: 150px;
+    }
+    .hits{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Hlist p{
+        font-size: 12px;
+    }
+    .navul2{
+        justify-content: center;
     }
 }
