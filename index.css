@@ -331,13 +331,17 @@ li {
     align-items: center;
 }
 
+.container1 p{
+    cursor: pointer;
+}
+
 .containers {
     display: flex;
 }
 
 .container1 {
     color: #2bc5b4;
-    padding-right: 186px;
+    padding-right: 140px;
 }
 
 .footerlogo {
@@ -350,6 +354,7 @@ li {
 .containers img {
     height: 24px;
     padding-right: 18px;
+    cursor: pointer;
 }
 
 .lastline {
