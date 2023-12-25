@@ -59,4 +59,16 @@
     .heading{
         font-size: 18px;
     } 
+    .list img {
+        height: 90px;
+        width: 160px;
+        cursor: pointer;
+    }
+    .list{
+        padding-bottom: 15px;
+    }
+    .newmusic{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
