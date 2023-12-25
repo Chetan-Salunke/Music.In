@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music.in</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo">Music.In</div>
+        <ul class="navul">
+            <img src="./Media/icons8-home-48 (1).png" alt="">
+            <li>Home</li>
+            <img src="./Media/icons8-trending-48 (1).png" alt="">
+            <li>Trending Songs</li>
+            <img src="./Media/icons8-song-50.png" alt="">
+            <li>Music</li>
+            <img src="./Media/icons8-podcast-50 (1).png" alt="">
+            <li>Podcasts</li>
+        </ul>
+    </nav>
+    <!-- ----for responsive bar toggleMenu -->
+    <nav id="hamburger-nav">
+        <div class="logo">Music.In</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Trending</a></li>
+            <li><a href="#achievement" onclick="toggleMenu()">Music</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Podcasts</a></li>
+          </div>
+        </div>
+      </nav>
+    
+</body>
+<script src="index.js"></script>
+
+</html>

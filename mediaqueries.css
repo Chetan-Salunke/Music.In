@@ -1,0 +1,15 @@
+/* ----MEDIA QUERIES---- */
+@media screen and (max-width: 1400px) {
+    
+}
+@media screen and (max-width: 1200px) {
+    #hamburger-nav {
+        display: flex;
+      }
+      .nav {
+        display: none;
+      }
+}
+@media screen and (max-width: 600px) {
+   
+}
