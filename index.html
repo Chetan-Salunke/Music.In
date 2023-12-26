@@ -11,19 +11,21 @@
 
 <body>
     <!-- --------navbar 1---------- -->
-    <nav class="nav">
-        <div class="logo">Music.In</div>
-        <ul class="navul">
-            <img src="./Media/icons8-home-48 (1).png" alt="">
-            <li>Home</li>
-            <img src="./Media/icons8-trending-48 (1).png" alt="">
-            <li>Trending Songs</li>
-            <img src="./Media/icons8-song-50.png" alt="">
-            <li>Music</li>
-            <img src="./Media/icons8-podcast-50 (1).png" alt="">
-            <li>Podcasts</li>
-        </ul>
-    </nav>
+    <section id="Navbars">
+        <nav class="nav">
+            <div class="logo">Music.In</div>
+            <ul class="navul">
+                <img src="./Media/icons8-home-48 (1).png" alt="">
+                <li><a href="#Navbars">Home</a></li>
+                <img src="./Media/icons8-trending-48 (1).png" alt="">
+                <li><a href="#Trending">Trending Songs</a></li>
+                <img src="./Media/icons8-song-50.png" alt="">
+                <li><a href="#Music">Music</a></li>
+                <img src="./Media/icons8-podcast-50 (1).png" alt="">
+                <li><a href="">Podcasts</a></li>
+            </ul>
+        </nav>
+    </section>
     <!-- ----for responsive bar toggleMenu -->
     <nav id="hamburger-nav">
         <div class="logo">Music.In</div>
@@ -34,10 +36,10 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">Home</a></li>
-                <li><a href="#project" onclick="toggleMenu()">Trending</a></li>
-                <li><a href="#achievement" onclick="toggleMenu()">Music</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Podcasts</a></li>
+                <li><a href="#Navbars" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#Trending" onclick="toggleMenu()">Trending</a></li>
+                <li><a href="#Music" onclick="toggleMenu()">Music</a></li>
+                <li><a href="" onclick="toggleMenu()">Podcasts</a></li>
             </div>
         </div>
     </nav>
@@ -64,39 +66,39 @@
         <div class="artistlist">
             <div class="art">
                 <img src="./Media/honeysingh.webp" alt="">
-                <p>Honey Singh</p>
+                <p> <a href="./singers.html">Honey Singh</a></p>
             </div>
             <div class="art">
                 <img src="./Media/neha.jpg" alt="">
                 <p>Neha Kakkar</p>
             </div>
             <div class="art">
-                <img src="./Media/badsha.jpg-org" alt="">
-                <p>Badshah</p>
+                <img src="./Media/parmish.jpg" alt="">
+                <p>Parmish</p>
             </div>
             <div class="art">
-                <img src="./Media/shreya.jpg" alt="">
-                <p>Shreya Ghoshal</p>
+                <img src="./Media/siddhu.avif" alt="">
+                <p>Sidhu</p>
             </div>
             <div class="art">
                 <img src="./Media/arjitsingh.webp" alt="">
                 <p>Arijit Singh</p>
             </div>
             <div class="art">
-                <img src="./Media/sonu.jpg" alt="">
-                <p>Sonu Nigam</p>
+                <img src="./Media/jass.jpg" alt="">
+                <p>Jass Manak</p>
             </div>
             <div class="art">
-                <img src="./Media/arrahman.jpg" alt="">
-                <p>AR Rahman</p>
+                <img src="./Media/guru.jpg" alt="">
+                <p>Guru Randhawa</p>
             </div>
             <div class="art">
-                <img src="./Media/Jubin.jpg" alt="">
-                <p>Jubin Nautiyal</p>
+                <img src="./Media/harrdy.jpg" alt="">
+                <p>Harrdy</p>
             </div>
             <div class="art">
-                <img src="./Media/tony.jpg" alt="">
-                <p>Tony Kakkar</p>
+                <img src="./Media/ap.jpeg" alt="">
+                <p>AP Dhillon</p>
             </div>
             <div class="art">
                 <img src="./Media/diljit.jpg" alt="">
@@ -106,7 +108,7 @@
     </div>
     <!-- -----------movie-card-music------------- -->
     <div class="containercard">
-        <p class="heading">Top 10 Artists </p>
+        <p class="heading">Top Movie Songs </p>
         <div class="cards">
             <div class="card" id="card1">
 
@@ -132,89 +134,93 @@
         </div>
     </div>
     <!---------new-songs----------->
-    <div class="newmusic">
-        <p class="heading">New Music </p>
-        <div class="musiclist">
-            <div class="list" onclick="toggleMusic1()">
-                <img src="./Media/Animal-first-look.jpg" alt="">
-                <p>Animal |Arjan Vailly</p>
-            </div>
-            <div class="list" onclick="toggleMusic2()">
-                <img src="./Media/karan aujla softly.jpg" alt="">
-                <p>Karan Aujla | Softly</p>
-            </div>
-            <div class="list" onclick="toggleMusic3()">
-                <img src="./Media/jamal kudu.jpg" alt="">
-                <p>Abrar’s Entry | Jamal Kudu</p>
-            </div>
-            <div class="list" onclick="toggleMusic4()">
-                <img src="./Media/obsessed.jpg" alt="">
-                <p>Obsessed | Riar Saab</p>
+    <section id="Trending">
+        <div class="newmusic">
+            <p class="heading">Trending Songs</p>
+            <div class="musiclist">
+                <div class="list" onclick="toggleMusic1()">
+                    <img src="./Media/Animal-first-look.jpg" alt="">
+                    <p>Animal |Arjan Vailly</p>
+                </div>
+                <div class="list" onclick="toggleMusic2()">
+                    <img src="./Media/karan aujla softly.jpg" alt="">
+                    <p>Karan Aujla | Softly</p>
+                </div>
+                <div class="list" onclick="toggleMusic3()">
+                    <img src="./Media/jamal kudu.jpg" alt="">
+                    <p>Abrar’s Entry | Jamal Kudu</p>
+                </div>
+                <div class="list" onclick="toggleMusic4()">
+                    <img src="./Media/obsessed.jpg" alt="">
+                    <p>Obsessed | Riar Saab</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- -------------hits-songs-------------- -->
-    <div class="hits">
-        <p class="heading">India’s Biggest Hits</p>
-        <div class="hitslist">
-            <div class="Hlist">
-                <img src="./Media/new.jpg" alt="">
-                <p>New Songs</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/old.jpg" alt="">
-                <p>Old Songs</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/punjabi.jpg" alt="">
-                <p>Punjabi Fire</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/party songs.jpg" alt="">
-                <p>Party Songs</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/marathi.jpg" alt="">
-                <p>Marathi Songs</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/romance.jpg" alt="">
-                <p>Romance Hotlists</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/allcollection.png" alt="">
-                <p>All Collections</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/krsna.jpg" alt="">
-                <p>Hip Hop</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/classic.webp" alt="">
-                <p>Classical</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/english.webp" alt="">
-                <p>English Radio</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/shiv.jpg" alt="">
-                <p>Bhaktigeete</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/8s.jpg" alt="">
-                <p>80s Music Hits</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/9s.jpg" alt="">
-                <p>90s Bollywood</p>
-            </div>
-            <div class="Hlist">
-                <img src="./Media/2s.jpg" alt="">
-                <p>2000s Music Hits</p>
+    <section id="Music">
+        <div class="hits">
+            <p class="heading">India’s Biggest Hits</p>
+            <div class="hitslist">
+                <div class="Hlist">
+                    <img src="./Media/new.jpg" alt="">
+                    <p>New Songs</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/old.jpg" alt="">
+                    <p>Old Songs</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/punjabi.jpg" alt="">
+                    <p>Punjabi Fire</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/party songs.jpg" alt="">
+                    <p>Party Songs</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/marathi.jpg" alt="">
+                    <p>Marathi Songs</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/romance.jpg" alt="">
+                    <p>Romance Hotlists</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/allcollection.png" alt="">
+                    <p>All Collections</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/krsna.jpg" alt="">
+                    <p>Hip Hop</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/classic.webp" alt="">
+                    <p>Classical</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/english.webp" alt="">
+                    <p>English Radio</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/shiv.jpg" alt="">
+                    <p>Bhaktigeete</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/8s.jpg" alt="">
+                    <p>80s Music Hits</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/9s.jpg" alt="">
+                    <p>90s Bollywood</p>
+                </div>
+                <div class="Hlist">
+                    <img src="./Media/2s.jpg" alt="">
+                    <p>2000s Music Hits</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- --------footer-section---------- -->
     <div class="footer">
         <div class="containers">

@@ -14,6 +14,10 @@ p {
     color: white;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 /* FIRST NAVBAR */
 .nav {
     font-size: 1.2rem;
@@ -299,6 +303,10 @@ li {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.Hlist{
+    padding-bottom: 30px;
 }
 
 .Hlist img {
