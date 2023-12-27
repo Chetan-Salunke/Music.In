@@ -153,4 +153,21 @@
     .lastline p{
         font-size: 10px;
     }
+    .box{
+        /* height: 18rem; */
+        width: 90%;
+        flex-flow: column;
+    }
+    .image {
+        height: 65%;
+        width: 100%;
+    }
+    .music{
+        height: 20%;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .music p{
+        font-size: 15px;
+    }
 }
