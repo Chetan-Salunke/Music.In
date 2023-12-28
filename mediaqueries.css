@@ -170,4 +170,9 @@
     .music p{
         font-size: 15px;
     }
+    .lists img{
+        width: 164px;
+        height: 96px;
+        padding-top: 15px;
+    }
 }

@@ -187,54 +187,21 @@ li {
 } */
 
 /* CARD SECTION */
-.cards {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 15px;
-}
-
-.card {
-    background-size: cover;
-    border-radius: 10px;
-    height: 128px;
-    width: 210px;
-}
-
-.card:hover {
-    opacity: 0.8;
-}
-
-#card1 {
-    background-image: url(./Media/Animal-first-look.jpg);
-}
-
-#card2 {
-    background-image: url(./Media/bhediya.jpg);
-}
-
-#card3 {
-    background-image: url(./Media/gadar2.jpg);
-}
-
-#card4 {
-    background-image: url(./Media/jawa.jpg);
-}
-
-#card5 {
-    background-image: url(./Media/pathaan.jpg);
-}
-
-#card6 {
-    background-image: url(./Media/kgf2.jpg);
-}
-
-#card7 {
-    background-image: url(./Media/pushpa.jpg);
-}
-
 .containercard {
     padding-top: 42px;
     padding-bottom: 20px;
+}
+.musiclists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.lists img {
+    height: 126px;
+    width: 210px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 /* SINGRLIST */
