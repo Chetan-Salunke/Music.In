@@ -308,6 +308,11 @@ li {
 
 .container1 p{
     cursor: pointer;
+    line-height: 30px;
+}
+
+.container1 h3{
+    line-height: 30px;
 }
 
 .containers {
@@ -400,3 +405,6 @@ audio{
 audio::-webkit-media-controls-enclosure{
     background: none;
 }
+
+
+/* --------bhaktigeet------------ */

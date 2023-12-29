@@ -20,9 +20,9 @@ let currentAudio = null;
 
 function playSong(songName) {
     if (currentAudio) {
-        // If there is a currently playing audio, stop it
         currentAudio.pause();
     }
+
 
     // Create a new audio element
     const audio = new Audio();
@@ -43,6 +43,8 @@ function playSong(songName) {
     // Play the audio
     audio.play();
 
+    
+    
     // Update the currentAudio variable to the newly created audio element
     currentAudio = audio;
 }
