@@ -175,4 +175,10 @@
         height: 96px;
         padding-top: 15px;
     }
+    .navbar2 li {
+        padding: 9px;
+    }
+    .navul2{
+        padding: 10px;
+    }
 }
